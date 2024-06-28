@@ -82,13 +82,19 @@ nav {
   z-index: 100;
 }
 .nav-logo {
-  position: relative;
+  display: flex;
+  align-items: center;
 }
+
+.logo {
+  height: 140%; /* Adjust the height according to your needs */
+  width: auto;
+}
+
 .nav-name {
-  font-size: 30px;
-  font-weight: 600;
-  color: var(--text-color-third);
+  display: none;
 }
+
 .nav-logo span {
   position: absolute;
   top: -15px;
